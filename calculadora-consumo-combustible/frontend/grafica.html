@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Gráfica de Consumo</title>
+  <link rel="stylesheet" href="grafica.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+ 
+</head>
+<body>
+  <h2>Consumo vs Velocidad</h2>
+  <canvas id="grafica" width="800" height="400"></canvas>
+  
+  <div class="info-box">
+    <p><strong>🟦 Línea Azul:</strong> Representa una curva promedio del consumo de combustible (en litros cada 100 km) según diferentes velocidades para carros estándar.</p>
+    <p><strong>🔴 Punto Rojo:</strong> Es tu consumo estimado real, calculado en base a los parámetros que ingresaste: velocidad, tipo de motor, peso del carro, tipo de terreno y distancia.</p>
+  </div>
+   <script src="grafica.js" defer></script>
+</body>
+</html>

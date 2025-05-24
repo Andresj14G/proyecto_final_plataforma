@@ -1,0 +1,242 @@
+body {
+background-image: url("fondo_f.jpg");
+  background-size: cover;
+  background-position: center top; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.titulo-principal {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 12px;
+  font-size: 40px;
+  color: rgb(245, 241, 225);
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-align: left;
+  line-height: 1.2;
+}
+
+
+.icono-hoja {
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+}
+
+
+
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  align-items: flex-start;
+  position: relative;
+}
+
+.left-panel {
+  width: 320px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  position: relative;
+  right: 190px;
+  margin-top: 40px;
+}
+
+.car-image {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.tips-container {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+}
+
+.info-box {
+  width: 280px;
+  padding: 25px;
+  border-radius: 8px;
+  color: #2b4d3f;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  background-color: rgb(245, 241, 225);
+  border: 1px solid #d6efd5;
+  min-width: 140px;
+}
+
+.info-box h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.info-box p {
+  margin: 0;
+  font-size: 16px;
+  color: #2b4d3f;
+}
+
+.tip-ahorro {
+  border-color: #a5d6a7;
+}
+
+.impacto-ambiental {
+  border-color: #90caf9;
+}
+
+.calculator {
+  background-color: rgb(245, 241, 225);
+  border-radius: 8px;
+  padding: 20px;
+  width: 360px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.calculator-title {
+    font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.icono-titulo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.form-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.form-group {
+  width: 48%;
+}
+
+.form-group label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 13px;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  box-sizing: border-box;
+}
+
+.calculator button {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #5cd934;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.calculator button:hover {
+  background-color: #45b324;
+}
+
+#resultado {
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-top: 25px;
+}
+
+#resultado span {
+  font-weight: bold;
+}
+
+#resultado .error {
+  color: red;
+}
+
+#resultado .success {
+  color: green;
+}
+
+.info {
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 5px;
+}
+
+
+.titulo {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.icono-circular {
+  display: block;
+  font-size: 35px; 
+  text-align: center;
+  margin-bottom: 8px;
+ 
+}
+
+.titulo-con-icono {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #2b4d3f;
+  margin: 0 0 8px;
+}
+
+.icono-img {
+  width: 23px;
+  height: 23px;
+  object-fit: contain;
+
+}
+
+
+
+
+
